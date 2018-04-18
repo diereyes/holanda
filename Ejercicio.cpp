@@ -22,14 +22,18 @@ int main()
     
  if (imc>=30.0){
  
-    cout<<"Tu IMC es de :   TIENES OBESIDAD "<<imc<<endl;
+    cout<<" TIENES OBESIDAD y Tu IMC es de :   "<<imc<<endl;
+    return 0;
 }
- if(imc>25.0 || imc<30.0){
- 	cout<<"Tu IMC es de :   TIENES SOBRE PESO "<<imc<<endl;
+ if(imc>25.0 && imc<30.0){
+ 	cout<<"TIENES SOBRE PESO  y Tu IMC es de :   "<<imc<<endl;
+ 	return 0;
 }
  if(imc<=25.0){
  
- 		cout<<"Tu IMC es de :   TIENES PESO NORMAL "<<imc<<endl;
+ 		cout<<"TIENES PESO NORMAL y Tu IMC es de :    "<<imc<<endl;
+	return 0;
  }
-    return 0;
+ 
+  
 }
