@@ -19,8 +19,17 @@ int main()
     cin>>estatura;
  
     imc=peso/(estatura*estatura);
+    
+ if (imc>=30.0){
  
-    cout<<"Tu IMC es de :   "<<imc<<endl;
+    cout<<"Tu IMC es de :   TIENES OBESIDAD "<<imc<<endl;
+}
+ if(imc>25.0 || imc<30.0){
+ 	cout<<"Tu IMC es de :   TIENES SOBRE PESO "<<imc<<endl;
+}
+ if(imc<=25.0){
  
+ 		cout<<"Tu IMC es de :   TIENES PESO NORMAL "<<imc<<endl;
+ }
     return 0;
 }
